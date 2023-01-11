@@ -34,4 +34,6 @@ public class Secteur {
 	public TypeAnimal obtenirType() {
 		return typeAnimauxDansSecteur;
 	}
+	
+	
 }

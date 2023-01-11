@@ -25,6 +25,18 @@ public class Zoo {
 	}
 	
 	
+	public Secteur getSecteur( TypeAnimal typeAnimal) {
+		Secteur secteur= null;
+		for(Secteur s: secteursAnimaux) {
+	        if(s.obtenirType() == typeAnimal) {
+	            secteur = s;
+	        }
+	        
+		}
+		return secteur ;
+	}
+	
+	
 	public void nouveauVisiteur() throws LimiteVisiteurException {
 		
 		
